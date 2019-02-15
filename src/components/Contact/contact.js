@@ -1,0 +1,5 @@
+import React from "react";
+import "./contact.css";
+
+
+export default Contact;
