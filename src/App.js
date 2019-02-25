@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
-import Header from "./components/Header";
-import Contact from "./components/Contact";
-import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
+import Home from "./components/Pages/home";
+import Header from "./components/Header/header";
+import About from "./components/Pages/about";
+import Contact from "./components/Pages/contact";
+import Portfolio from "./components/Pages/portfolio";
+import Footer from "./components/Footer/footer";
+import Wrapper from "./components/Wrapper/wrapper";
 import './App.css'
 
 class App extends Component {
+
+
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
