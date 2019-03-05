@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./components/Pages/home";
 import Header from "./components/Header/header";
 import About from "./components/Pages/about";
@@ -8,28 +9,26 @@ import Footer from "./components/Footer/footer";
 import Wrapper from "./components/Wrapper/wrapper";
 import './App.css'
 
-class App extends Component {
-
-
-
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+    <Wrapper>
+      <Router>
+        <div>
+          <Header/>
+          <switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} 
+          />
+          <Route exact path="/portfolio" component={Portfolio} />
+          </switch>
+        </div>
+        <Home/>
+        <Footer/>
+      </Router>
+    </Wrapper>
+  )
   }
 }
 
