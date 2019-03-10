@@ -23,7 +23,7 @@ const About = (props) => {
         </p>
       </h2>
     </div>  
-    
+
     <Footer>
     
     </Footer> 

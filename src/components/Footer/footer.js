@@ -6,7 +6,7 @@ const Footer = props => {
 
   return (
     <div>
-      
+      Copyright&copy
     </div>
   )
 }

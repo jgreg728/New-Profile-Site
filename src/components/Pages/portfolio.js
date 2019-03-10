@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/header";
 import Footer from "../Footer/footer";
 import Wrapper from "../Wrapper/wrapper";
+import { Link } from 'react-router';
 
 const Portfolio = props => {
   console.log(props)
@@ -17,8 +18,16 @@ const Portfolio = props => {
             <strong>Portfolio</strong>
           </h2>
 
-          <div >
- 
+          <div>
+            <ul>
+              <li>
+                <Link to="https://lit-river-69697.herokuapp.com">Duly Noted: A Note Taking App</Link>
+              </li>
+              <li>
+                
+                <href></href>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

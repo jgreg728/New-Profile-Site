@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/header";
 import Footer from "../Footer/footer";
 import Wrapper from "../Wrapper/wrapper";
+import { Switch } from "react-router-dom";
 
 
 const Contact = props => {
