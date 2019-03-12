@@ -1,5 +1,9 @@
 import React from 'react';
-import { Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "./components/Pages/home";
+import About from "./components/Pages/about";
+import Contact from "./components/Pages/contact";
+import Portfolio from "./components/Pages/portfolio";
  
 export default (
       <Router>
