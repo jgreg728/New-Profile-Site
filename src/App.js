@@ -12,22 +12,9 @@ import './App.css'
 class App extends React.Component {
   render() {
     return (
-    <Wrapper>
-      <Router>
-        <div>
-          <Header/>
-          <switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} 
-          />
-          <Route exact path="/portfolio" component={Portfolio} />
-          </switch>
-        </div>
-        <Home/>
-        <Footer/>
-      </Router>
-    </Wrapper>
+      <Wrapper>
+        {this.props.children}
+      </Wrapper>
   )
   }
 }
