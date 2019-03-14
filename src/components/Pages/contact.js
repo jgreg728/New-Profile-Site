@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../Header/header";
-import Form from "../Form/form";
-import Footer from "../Footer/footer";
+import Header from "../Parts/Header/header";
+import Form from "../Parts/Form/form";
+import Footer from "../Parts/Footer/footer";
 import Wrapper from "../Wrapper/wrapper";
 import { Switch } from "react-router-dom";
 

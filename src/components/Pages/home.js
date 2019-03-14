@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../Header/header";
-import Footer from "../Footer/footer";
+import Header from "../Parts/Header/header";
+import Footer from "../Parts/Footer/footer";
 import Wrapper from "../Wrapper/wrapper";
 import {Navbar} from "react-bootstrap";
 
