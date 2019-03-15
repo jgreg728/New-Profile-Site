@@ -9,14 +9,26 @@ import Footer from "./components/Footer/footer";
 import Wrapper from "./components/Wrapper/wrapper";
 import './App.css'
 
-class App extends React.Component {
-  render() {
-    return (
-      <Wrapper>
-        {this.props.children}
-      </Wrapper>
+const App = () => {
+  return (
+    <Wrapper>
+      <Router>
+    <div>
+      <Header/>
+      <switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/contact" component={Contact} 
+      />
+      <Route exact path="/portfolio" component={Portfolio} />
+      </switch>
+    </div>
+    <Home/>
+    <Footer/>
+  </Router>
+    </Wrapper>
+    
   )
-  }
 }
 
 export default App;

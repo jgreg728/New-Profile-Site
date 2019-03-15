@@ -1,23 +1,14 @@
-import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./components/Pages/home";
-import About from "./components/Pages/about";
-import Contact from "./components/Pages/contact";
-import Portfolio from "./components/Pages/portfolio";
- 
-export default (
-      <Router>
-        <div>
-          <Header/>
-          <switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} 
-          />
-          <Route exact path="/portfolio" component={Portfolio} />
-          </switch>
-        </div>
-        <Home/>
-        <Footer/>
-      </Router>
-)
+// import express Router, path module (built into node), our api routes
+const router = require('express').Router();
+const path = require('path');
+const apiRoutes = require('./api');
+
+// prefix api routes with "/api"
+router.use('/api', apiRoutes);
+
+// if no routes are hit, send the client's homepage (only to be used in production)
+router.use(function(req,res) {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+});
+
+module.exports = router;
