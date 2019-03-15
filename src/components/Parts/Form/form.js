@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button/button"
 
 const Form = (props) => {
   console.log(props)
@@ -13,8 +14,7 @@ const Form = (props) => {
     </Form.Text>
   </Form.Group>
 
-  <Button variant="primary" type="submit">
-    Submit
+  <Button>
   </Button>
 
 </Form>
