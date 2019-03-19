@@ -3,7 +3,7 @@ import Header from "../Parts/Header/header";
 import Form from "../Parts/Form/form";
 import Footer from "../Parts/Footer/footer";
 import Wrapper from "../Wrapper/wrapper";
-import { Switch } from "react-router-dom";
+
 
 
 const Contact = (props) => {
@@ -13,12 +13,8 @@ const Contact = (props) => {
   <Header>
     Contact John
   </Header>
-    <Form>
-      
-    </Form>
-    <Footer>
-    
-    </Footer> 
+    <Form></Form>
+    <Footer></Footer> 
   </Wrapper>
   );
 };
