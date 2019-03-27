@@ -3,6 +3,7 @@ import Header from "../Parts/Header/header";
 import Footer from "../Parts/Footer/footer";
 import Wrapper from "../Wrapper/wrapper";
 import { Link } from 'react-router-dom';
+import {Navbar} from "react-bootstrap";
 
 const Portfolio = props => {
   console.log(props)
@@ -10,8 +11,8 @@ const Portfolio = props => {
   return (
     <Wrapper>
       <Header>
-        Portfilio
-    </Header>
+      <Navbar.Brand href="/">John's Portfolio'</Navbar.Brand>
+      </Header>
       <div>
         <div>
           <h2>
