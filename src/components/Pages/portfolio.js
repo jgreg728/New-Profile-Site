@@ -1,9 +1,11 @@
 import React from "react";
-import Header from "../Parts/Header/header";
-import Footer from "../Parts/Footer/footer";
-import Wrapper from "../Wrapper/wrapper";
+import Header from "../Parts/Header/Header";
+import Footer from "../Parts/Footer/Footer";
+import Wrapper from "../Wrapper/Wrapper";
+import Card from "../Parts/Card/Card"
 import { Link } from 'react-router-dom';
-import {Navbar} from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
+import "../../App";
 
 const Portfolio = props => {
   console.log(props)
@@ -11,7 +13,7 @@ const Portfolio = props => {
   return (
     <Wrapper>
       <Header>
-      <Navbar.Brand href="/">John's Portfolio'</Navbar.Brand>
+        <Navbar.Brand href="/">John's Portfolio'</Navbar.Brand>
       </Header>
       <div>
         <div>
@@ -19,24 +21,14 @@ const Portfolio = props => {
             <strong>Portfolio</strong>
           </h2>
 
-          <div>
-            <ul>
-              <li>
-                <Link to="https://lit-river-69697.herokuapp.com">Duly Noted: A Note Taking App</Link>
-              </li>
-              <li>
-                
-                <href></href>
-              </li>
-            </ul>
-          </div>
+          <Card>
+            <Link to="https://lit-river-69697.herokuapp.com">Duly Noted: A Note Taking App</Link>
+          </Card>
         </div>
       </div>
-      <Footer>
+      <Footer />
+    </Wrapper>
+  )
+}
 
-      </Footer> 
-  </Wrapper>
-      )
-    }
-    
 export default Portfolio;

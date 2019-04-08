@@ -1,7 +1,8 @@
 import React from "react";
-import Header from "../Parts/Header/header";
-import Footer from "../Parts/Footer/footer";
-import Wrapper from "../Wrapper/wrapper";
+import Header from "../Parts/Header/Header";
+import Footer from "../Parts/Footer/Footer";
+import Wrapper from "../Wrapper/Wrapper";
+import "../../App";
 import { Navbar } from "react-bootstrap";
 
 const About = (props) => {

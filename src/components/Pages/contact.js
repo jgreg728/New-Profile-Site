@@ -1,8 +1,9 @@
 import React from "react";
-import Header from "../Parts/Header/header";
-import Form from "../Parts/Form/form";
-import Footer from "../Parts/Footer/footer";
-import Wrapper from "../Wrapper/wrapper";
+import Header from "../Parts/Header/Header";
+import Form from "../Parts/Form/Form";
+import Footer from "../Parts/Footer/Footer";
+import Wrapper from "../Wrapper/Wrapper";
+import "../../App";
 
 
 
