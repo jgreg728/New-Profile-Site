@@ -1,14 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import "./footer.css";
 
-const Footer = props => {
-  console.log(props)
-
-  return (
+class Footer extends Component {
+  render() {
+    return (
     <div>
       Copyright
     </div>
   )
+  } 
 }
 
 export default Footer;

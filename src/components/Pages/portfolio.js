@@ -1,34 +1,37 @@
-import React from "react";
+import React, { Component } from "react";
 import Header from "../Parts/Header/Header";
 import Footer from "../Parts/Footer/Footer";
 import Wrapper from "../Wrapper/Wrapper";
-import Card from "../Parts/Card/Card"
 import { Link } from 'react-router-dom';
-import { Navbar } from "react-bootstrap";
+import { Navbar, Card, Image, Grid, Row, Button, Form } from "react-bootstrap";
 import "../../App";
 
-const Portfolio = props => {
-  console.log(props)
-
-  return (
-    <Wrapper>
-      <Header>
-        <Navbar.Brand href="/">John's Portfolio'</Navbar.Brand>
-      </Header>
-      <div>
+class Portfolio extends Component {
+  render() {
+    return (
+      <Wrapper>
+          <Navbar.Brand href="/">John's Portfolio</Navbar.Brand>
         <div>
-          <h2>
-            <strong>Portfolio</strong>
-          </h2>
-
-          <Card>
-            <Link to="https://lit-river-69697.herokuapp.com">Duly Noted: A Note Taking App</Link>
-          </Card>
+          <div>
+            <h2>
+              <strong>Portfolio</strong>
+            </h2>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  
+                </Card.Text>
+                <Button variant="primary"><Link to="https://lit-river-69697.herokuapp.com">Duly Noted: A Note Taking App</Link></Button>
+              </Card.Body>
+            </Card>;
         </div>
-      </div>
-      <Footer />
-    </Wrapper>
-  )
+        </div>
+
+      </Wrapper>
+    )
+  }
 }
 
 export default Portfolio;

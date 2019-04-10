@@ -1,16 +1,13 @@
-import React from "react";
-import Header from "../Parts/Header/Header";
-import Footer from "../Parts/Footer/Footer";
+import React, { Component } from "react";
 import Wrapper from "../Wrapper/Wrapper";
 import "../../App";
-import { Navbar } from "react-bootstrap";
+import { Navbar, Card, Image, Grid, Row, Button, Form } from "react-bootstrap";
 
-const About = (props) => {
-  return (
+class About extends Component {
+  render() {
+    return (
     <Wrapper>
-      <Header>
         <Navbar.Brand href="/">About John...</Navbar.Brand>
-      </Header>
       <div>
         {/* ADD SELF IMAGE HERE */}
         <h2>
@@ -25,13 +22,9 @@ const About = (props) => {
         </p>
         </h2>
       </div>
-
-      <Footer>
-
-      </Footer>
-    </Wrapper>
-  )
-
+      </Wrapper>
+    );
+  }
 }
 
 export default About;

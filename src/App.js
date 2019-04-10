@@ -12,19 +12,17 @@ import './App.css'
 const App = () => {
   return (
     <Router>
-      <Wrapper>
-        <Header />
-        <Switch>
-          <Route exact path="/" component={Home}>
-            <Route exact path="/about" component={About} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/portfolio" component={Portfolio} />
-          </Route>
-
-        </Switch>
-        <Footer />
-      </Wrapper>
-    </Router>
+    <Wrapper>
+      <Header/>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/portfolio" component={Portfolio} />
+      </Switch>
+      <Footer/>
+    </Wrapper>
+  </Router>
   )
 }
 
