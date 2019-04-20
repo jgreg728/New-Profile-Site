@@ -1,10 +1,28 @@
 
-h3 {
-  text-align: center;
+h1 {
+  padding: 50px;
+}
+
+h2 {
+  font-size: 150%;
+  text-align: left;
+  text-indent: 2cm;
   font-family: system-ui, 'Gill Sans Light', Georgia, Times, 'Times New Roman', serif;
   display: flex;
   align-items: center;
-  color: rgb(94, 94, 94)
+  color: rgb(94, 94, 94);
+  padding: 50px
+}
+
+h3 {
+  font-size: 150%;
+  text-align: left;
+  text-indent: 2cm;
+  font-family: system-ui, 'Gill Sans Light', Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  align-items: center;
+  color: rgb(94, 94, 94);
+  padding: 50px
 }
 
 
