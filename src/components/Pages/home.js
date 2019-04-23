@@ -4,6 +4,7 @@ import "../../App";
 import { Navbar, Card, Image, Grid, Row, Col, Button, Form } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 
+
 class Home extends Component {
   render() {
     return (
@@ -11,7 +12,7 @@ class Home extends Component {
         <h1>John Gregorio's Official Page</h1>
         <Container>
           <Row>
-            <Col md={4}>
+            <Col className="profilePicture" md={4} >
               <Image src="../../assets/john_gregorio_profile_pic.png" rounded />
             </Col>
 
