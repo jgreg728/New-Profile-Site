@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import Header from "../Parts/Header/Header";
-import Footer from "../Parts/Footer/Footer";
-import Wrapper from "../Wrapper/Wrapper";
+import Wrapper from "../Wrapper/wrapper";
 import { Link } from 'react-router-dom';
 import { Navbar, Card, Image, Grid, Row, Col, Button, Form } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';

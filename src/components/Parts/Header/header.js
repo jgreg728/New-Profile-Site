@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./header.css";
+import "./style.css";
 import {Navbar,Nav} from "react-bootstrap";
 
 class Header extends Component {

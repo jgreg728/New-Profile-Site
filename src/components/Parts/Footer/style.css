@@ -1,0 +1,8 @@
+.footer {
+  background-color: rgb(42, 49, 56);
+  color: white;
+  height: 50px;
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center
+}

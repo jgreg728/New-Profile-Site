@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Wrapper from "../Wrapper/Wrapper";
+import Wrapper from "../Wrapper/wrapper";
 import "../../App";
 import { Navbar, Card, Image, Grid, Row, Col, Button, Form } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
