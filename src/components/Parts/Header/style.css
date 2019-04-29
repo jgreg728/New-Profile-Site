@@ -3,3 +3,7 @@ Navbar {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: left
 }
+
+.mr-auto {
+  color: white
+}

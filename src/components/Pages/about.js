@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Wrapper from "../Wrapper/wrapper";
 import "../../App";
 import { Navbar, Card, Image, Grid, Row, Col, Button, Form } from "react-bootstrap";
+import stJohns from "../../assets/st_johns_logo.png"
+import pershing from "../../assets/pershing_logo.png"
+import rutgers from "../../assets/rutgers_bootcamp_logo.png"
 import Container from 'react-bootstrap/Container';
 
 class About extends Component {
@@ -12,8 +15,8 @@ class About extends Component {
         <Container>
 
           <Row>
-            <Col md={6}>
-            <Image src="../../assets/st_johns_logo.png" />
+          <Col className="stJohnsPic" md={4} >
+              <Image src={stJohns} height="200px" width="200px" rounded />
             </Col>
             <Col md={6}>
               <h2>
@@ -33,14 +36,14 @@ class About extends Component {
             </p>
               </h2>
             </Col>
-            <Col md={6}>
-            <Image src="../../assets/pershing_logo.png" />
+            <Col className="pershing" md={4} >
+              <Image src={pershing} height="300px" width="500px" rounded />
             </Col>
           </Row>
 
           <Row>
-          <Col md={6}>
-            <Image src="../../assets/rutgers_bootcamp_logo.png" />
+          <Col className="rutgers" md={4} >
+              <Image src={rutgers} height="40px" width="400px" rounded />
             </Col>
             <Col>
               <h2>

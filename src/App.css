@@ -22,9 +22,24 @@ h3 {
   display: flex;
   align-items: center;
   color: rgb(94, 94, 94);
-  padding: 50px
 }
 
+.profilePicture {
+  padding-right: 50px;
+}
+
+.stJohnsPic {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.pershing {
+  padding-top: 150px;
+}
+
+.rutgers {
+  padding-top: 150px;
+}
 
 @font-face {
   font-family: system;
