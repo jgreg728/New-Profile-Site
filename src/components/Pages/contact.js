@@ -29,7 +29,7 @@ class Contact extends Component {
           </Col>
         </Row>
 <br></br>
-        <Row>
+        {/* <Row>
         <Col md={3}>
           </Col>
           <Col md={6}>
@@ -55,7 +55,7 @@ class Contact extends Component {
 
           <Col md={3}>
           </Col>
-        </Row>
+        </Row> */}
       </Container> 
     </Wrapper>
     )

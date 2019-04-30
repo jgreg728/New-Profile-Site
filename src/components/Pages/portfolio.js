@@ -28,7 +28,7 @@ class Portfolio extends Component {
                 <Card.Body>
                   <Card.Title>Note Taker</Card.Title>
                   <Card.Text>
-                    Utilizes mySQL database to allow users to write down and save personal notes, as well as delete previously made notes.
+                    Utilizes mySQL database to allow users to write down and save personal notes, as well as delete previously made notes. Database also allows saving of created notes.
                 </Card.Text>
                   <Button variant="primary"><a href="https://lit-river-69697.herokuapp.com">Enter</a></Button>
                 </Card.Body>
@@ -63,7 +63,7 @@ class Portfolio extends Component {
                 <Card.Body>
                   <Card.Title>"Rate My Plate" Food Search App</Card.Title>
                   <Card.Text>
-                  Utilizes Firebase database tool to allow users to search, review and locate a variety of restaurants by specific foods and dishes. Users may also leave reviews, and rate specific dishes based on a 5-point scoring system
+                  (GROUP PROJECT - Built the HTML scaffold; contributed to CSS styling; Handled Google Map API) Utilizes Firebase database tool to allow users to search, review and locate a variety of restaurants by specific foods and dishes.
                   </Card.Text>
                   <Button variant="primary"><a href="https://jgreg728.github.io/Rutgers-Group-Project-1/">Enter</a></Button>
                 </Card.Body>

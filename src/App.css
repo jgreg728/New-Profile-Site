@@ -28,9 +28,13 @@ h3 {
   padding-right: 50px;
 }
 
+.shiPic {
+  padding-right: 25px;
+}
+
 .stJohnsPic {
   padding-top: 100px;
-  padding-left: 100px;
+  padding-left: 200px;
 }
 
 .pershing {
@@ -39,6 +43,10 @@ h3 {
 
 .rutgers {
   padding-top: 150px;
+}
+
+a {
+  color: white
 }
 
 @font-face {
