@@ -16,11 +16,11 @@ class About extends Component {
         <Container>
 
           <Row>
-            <Col md={4}>
-          <Col className="shiPic" md={2} >
+            <Col md={6}>
+          <Col className="shiPic" md={3} >
               <Image src={shi} height="150px" width="220px" rounded />
             </Col>
-          <Col className="stJohnsPic" md={2} >
+          <Col className="stJohnsPic" md={3} >
               <Image src={stJohns} height="100px" width="100px" rounded />
             </Col>
             </Col>
@@ -34,7 +34,6 @@ class About extends Component {
           </Row>
 
           <Row>
-            
             <Col md={6}>
               <h2>
                 <p>
@@ -42,16 +41,16 @@ class About extends Component {
             </p>
               </h2>
             </Col>
-            <Col className="pershing" md={4} >
+            <Col className="pershing" md={6} >
               <Image src={pershing} height="300px" width="500px" rounded />
             </Col>
           </Row>
 
           <Row>
-          <Col className="rutgers" md={4} >
+          <Col className="rutgers" md={6} >
               <Image src={rutgers} height="40px" width="400px" rounded />
             </Col>
-            <Col>
+            <Col md={6}>
               <h2>
                 <p>
                   In July of 2018, John took up a bootcamp course for full-stack coding within Rutgers' continuing studies program. During the 6 months of the course, he became educated on the ins and outs of both front-end and back-end coding. Going through languages such as HTML, CSS, Javascript, jQuery, and React, John accrued a portfolio of interesting and creative works from the assignments given, as you will see in the Portfolio page of this site. John  graduated the program in February 2019, certified in completing Rutgers Coding Bootcamp.
