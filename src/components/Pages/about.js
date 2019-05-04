@@ -17,11 +17,11 @@ class About extends Component {
 
           <Row>
             <Col md={6}>
-          <Col className="shiPic" md={3} >
+          <Col className="shiPic" md={3} sm={1}>
               <Image src={shi} height="150px" width="220px" rounded />
             </Col>
-          <Col className="stJohnsPic" md={3} >
-              <Image src={stJohns} height="100px" width="100px" rounded />
+          <Col className="stJohnsPic" md={3} sm={1}>
+              <Image src={stJohns} height="150px" width="150px" rounded />
             </Col>
             </Col>
             <Col md={6}>
@@ -48,7 +48,7 @@ class About extends Component {
 
           <Row>
           <Col className="rutgers" md={6} >
-              <Image src={rutgers} height="40px" width="400px" rounded />
+              <Image src={rutgers} height="50px" width="500px" rounded />
             </Col>
             <Col md={6}>
               <h2>
