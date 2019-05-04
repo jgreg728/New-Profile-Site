@@ -19,7 +19,7 @@ class Contact extends Component {
           <Col md={6}>
           <Card style={{ width: '34rem' }}>
           <ListGroup variant="flush">
-            <ListGroup.Item>Email: John.Gregorio@Gmail.com</ListGroup.Item>
+            <ListGroup.Item>Email: John.Gregorio7890@Gmail.com</ListGroup.Item>
             <ListGroup.Item>Mobile: (917) 273-0449</ListGroup.Item>
             <ListGroup.Item>Github: https://github.com/jgreg728</ListGroup.Item>
           </ListGroup>
