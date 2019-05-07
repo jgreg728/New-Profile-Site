@@ -24,10 +24,12 @@ h3 {
   color: rgb(94, 94, 94);
 }
 
+/* HOME */
 .profilePicture {
   padding-right: 50px;
 }
 
+/* ABOUT ME */
 .shiPic {
   padding-right: 25px;
 }
@@ -47,6 +49,19 @@ h3 {
 
 a {
   color: white
+}
+
+.skills {
+ text-align: center
+}
+
+/* PORTFOLIO */
+.linkedIn {
+  color: darkblue
+}
+
+.github {
+  color: darkblue
 }
 
 @font-face {

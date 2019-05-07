@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Navbar, Card, Image, Grid, Row, Col, Button, Form } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 import note from "../../assets/note_icon.png";
-import train from "../../assets/train_clock.png";
+import train from "../../assets/train_clock.jpg";
 import plate from "../../assets/rate_my_plate.png";
 import smash from "../../assets/smash_logo.png";
 import "../../App";
@@ -24,7 +24,7 @@ class Portfolio extends Component {
 
             <Col md={4}>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={note} width="200px" height="300px" />
+                <Card.Img variant="top" src={note} width="100px" height="250px" />
                 <Card.Body>
                   <Card.Title>Note Taker</Card.Title>
                   <Card.Text>
@@ -37,7 +37,7 @@ class Portfolio extends Component {
 
             <Col md={4}>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={train} width="200px" height="300px" />
+                <Card.Img variant="top" src={train} width="405px" height="253px" />
                 <Card.Body>
                   <Card.Title>Train Schedule App</Card.Title>
                   <Card.Text>
