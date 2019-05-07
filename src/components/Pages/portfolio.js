@@ -36,6 +36,9 @@ class Portfolio extends Component {
               </Card>
             </Col>
 
+            <br></br>
+            <br></br>
+
             <Col md={4}>
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={train} width="405px" height="253px" />
@@ -53,8 +56,10 @@ class Portfolio extends Component {
             <Col md={2}>
             </Col>
           </Row>
+
           <br></br>
           <br></br>
+
           <Row>
             <Col md={2}>
             </Col>
@@ -73,6 +78,8 @@ class Portfolio extends Component {
 
               </Card>
             </Col>
+            <br></br>
+            <br></br>
 
             <Col md={4}>
               <Card style={{ width: '18rem' }}>

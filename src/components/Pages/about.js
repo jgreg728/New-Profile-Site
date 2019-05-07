@@ -23,17 +23,17 @@ class About extends Component {
 
           <Row>
             <Col md={6}>
-          <Col className="shiPic" md={3} sm={1}>
-              <Image src={shi} height="150px" width="220px" rounded />
-            </Col>
-          <Col className="stJohnsPic" md={3} sm={1}>
-              <Image src={stJohns} height="150px" width="150px" rounded />
-            </Col>
+              <Col className="shiPic" md={3} sm={6}>
+                <Image src={shi} height="150px" width="220px" rounded />
+              </Col>
+              <Col className="stJohnsPic" md={3} sm={6}>
+                <Image src={stJohns} height="150px" width="150px" rounded />
+              </Col>
             </Col>
             <Col md={6}>
               <h2>
                 <p>
-                  I received his B.S. in Marketing at St. John’s University in May 2012. Currently, I am employed in the Marketing Events department of the technology licensing, reselling and IT support company, SHI International, which has allowed me to sharpen both my analytical skills as well as give me valuable experience in branding and general marketing.
+                  I received my B.S. in Marketing at St. John’s University in May 2012. Currently, I am employed in the Marketing Events department of the technology licensing, reselling and IT support company, SHI International, which has allowed me to sharpen both my analytical skills as well as give me valuable experience in branding and general marketing.
         </p>
               </h2>
             </Col>
@@ -53,8 +53,8 @@ class About extends Component {
           </Row>
 
           <Row>
-          <Col className="rutgers" md={6} >
-              <Image src={rutgers} height="50px" width="500px" rounded />
+            <Col className="rutgers" md={6} >
+              <Image src={rutgers} height="45px" width="500px" rounded />
             </Col>
             <Col md={6}>
               <h2>
@@ -65,9 +65,14 @@ class About extends Component {
             </Col>
           </Row>
 
+          <br></br>
+          <br></br>
+
           <h1 className="skills">Proficient In...</h1>
-<br>
-</br>
+
+          <br>
+          </br>
+
           {/* <ul className="skillsList">
             <li>Front-End Coding: HTML, CSS, JavaScript, jQuery</li>
             <li>Back-End Coding: Firebase, Mongoose, Node, mySQL</li>
@@ -76,10 +81,10 @@ class About extends Component {
           </ul> */}
 
           <Row>
-          <Col md={3}>
+            <Col md={3}>
             </Col>
             <Col md={6}>
-            <Image src={frontEnd} height="150px" width="400px" rounded />
+              <Image src={frontEnd} height="150px" width="400px" rounded />
             </Col>
             <Col md={3}>
             </Col>
@@ -88,33 +93,36 @@ class About extends Component {
             <Col md={3}>
             </Col>
             <Col md={6}>
-            <Image src={mySQL} height="200px" width="200px" rounded />
-            <br></br>
-            <Image src={node} height="100px" width="200px" rounded />
-            <br></br>
-            <br></br>
-            <Image src={firebase} height="100px" width="350px" rounded />
+              <Image src={mySQL} height="200px" width="200px" rounded />
+              <br></br>
+              <Image src={node} height="100px" width="200px" rounded />
+              <br></br>
+              <br></br>
+              <Image src={firebase} height="100px" width="350px" rounded />
             </Col>
             <Col md={3}>
             </Col>
           </Row>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <Row>
             <Col md={3}>
             </Col>
             <Col md={6}>
-            <Image src={office} height="300px" width="500px" rounded />
-            <br></br>
-            <br></br>
-            <Image src={macOS} height="300px" width="300px" rounded />
+              <Image src={office} height="300px" width="500px" rounded />
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <Image src={macOS} height="300px" width="300px" rounded />
             </Col>
             <Col md={3}>
             </Col>
           </Row>
-
+          <br></br>
+          <br></br>
         </Container>
       </Wrapper>
     );

@@ -9,14 +9,14 @@ class Contact extends Component {
     return (
       <Wrapper>
         <h1>
-          Contact John
+          Contact Me
         </h1>
       
       <Container>
         <Row>
           <Col md={3}>
           </Col>
-          <Col md={6}>
+          <Col lg={6} md={12} sm={3}>
           <Card style={{ width: '34rem' }}>
           <ListGroup variant="flush">
             <ListGroup.Item><strong>Email:</strong> John.Gregorio7890@Gmail.com</ListGroup.Item>
