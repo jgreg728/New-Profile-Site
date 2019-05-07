@@ -30,7 +30,8 @@ class Portfolio extends Component {
                   <Card.Text>
                     Utilizes mySQL database to allow users to write down and save personal notes, as well as delete previously made notes. Database also allows saving of created notes.
                 </Card.Text>
-                  <Button variant="primary"><a href="https://lit-river-69697.herokuapp.com">Enter</a></Button>
+                  <Button variant="success" block><a href="https://lit-river-69697.herokuapp.com">Enter App</a></Button>
+                  <Button variant="primary" block><a href="https://github.com/jgreg728/Note-Taker-Heroku-App">GitHub Repo</a></Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -43,7 +44,8 @@ class Portfolio extends Component {
                   <Card.Text>
                     Built around Firebase database tool to allow users to create a working train timetable, complete with functions to calculate time remaining and time of arrival.
                 </Card.Text>
-                  <Button variant="primary"><a href="https://jgreg728.github.io/Train-Schedule/">Enter</a></Button>
+                  <Button variant="success" block><a href="https://jgreg728.github.io/Train-Schedule/">Enter App</a></Button>
+                  <Button variant="primary" block><a href="https://github.com/jgreg728/Train-Schedule">GitHub Repo</a></Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -65,7 +67,8 @@ class Portfolio extends Component {
                   <Card.Text>
                   (GROUP PROJECT - Built the HTML scaffold; contributed to CSS styling; Handled Google Map API) Utilizes Firebase database tool to allow users to search, review and locate a variety of restaurants by specific dishes.
                   </Card.Text>
-                  <Button variant="primary"><a href="https://jgreg728.github.io/Rutgers-Group-Project-1/">Enter</a></Button>
+                  <Button variant="success" block><a href="https://jgreg728.github.io/Rutgers-Group-Project-1/">Enter App</a></Button>
+                  <Button variant="primary" block><a href="https://github.com/jgreg728/Rutgers-Group-Project-1">GitHub Repo</a></Button>
                 </Card.Body>
 
               </Card>
@@ -79,7 +82,8 @@ class Portfolio extends Component {
                   <Card.Text>
                     Based on the popular video game, Super Smash Bros. Ultimate, this memory game has the users clicking chracters they have not already picked during the game. First repeat character chosen is GAME OVER
                   </Card.Text>
-                  <Button variant="primary"><a href="https://jgreg728.github.io/Click-Game-2/">Enter</a></Button>
+                  <Button variant="success" block><a href="https://jgreg728.github.io/Click-Game-2/">Enter App</a></Button>
+                  <Button variant="primary" block><a href="https://github.com/jgreg728/Click-Game-2">GitHub Repo</a></Button>
                 </Card.Body>
               </Card>
             </Col>

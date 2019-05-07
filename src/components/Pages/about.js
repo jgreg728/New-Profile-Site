@@ -66,19 +66,20 @@ class About extends Component {
           </Row>
 
           <h1 className="skills">Proficient In...</h1>
-
-          <ul className="skillsList">
+<br>
+</br>
+          {/* <ul className="skillsList">
             <li>Front-End Coding: HTML, CSS, JavaScript, jQuery</li>
             <li>Back-End Coding: Firebase, Mongoose, Node, mySQL</li>
             <li>Windows - Microsoft Office: Excel, Powerpoint, Word, </li>
             <li>macOS - ‘iWork” Suite: Numbers, Keynote, Pages</li>
-          </ul>
+          </ul> */}
 
           <Row>
-            <Col md={3}>
+          <Col md={3}>
             </Col>
             <Col md={6}>
-            <Image src={frontEnd} height="300px" width="500px" rounded />
+            <Image src={frontEnd} height="150px" width="400px" rounded />
             </Col>
             <Col md={3}>
             </Col>
@@ -87,21 +88,30 @@ class About extends Component {
             <Col md={3}>
             </Col>
             <Col md={6}>
-            <Image src={mySQL} height="300px" width="300px" rounded />
-            <Image src={node} height="300px" width="300px" rounded />
-            <Image src={firebase} height="300px" width="300px" rounded />
+            <Image src={mySQL} height="200px" width="200px" rounded />
+            <br></br>
+            <Image src={node} height="100px" width="200px" rounded />
+            <br></br>
+            <br></br>
+            <Image src={firebase} height="100px" width="350px" rounded />
             </Col>
             <Col md={3}>
             </Col>
           </Row>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
           <Row>
-            <Col md={2}>
+            <Col md={3}>
             </Col>
-            <Col md={8}>
-            <Image src={office} height="300px" width="300px" rounded />
+            <Col md={6}>
+            <Image src={office} height="300px" width="500px" rounded />
+            <br></br>
+            <br></br>
             <Image src={macOS} height="300px" width="300px" rounded />
             </Col>
-            <Col md={2}>
+            <Col md={3}>
             </Col>
           </Row>
 
