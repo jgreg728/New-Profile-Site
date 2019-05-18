@@ -87,7 +87,7 @@ class Portfolio extends Component {
                 <Card.Body>
                   <Card.Title>Smash Bros. Ultimate Memory Game</Card.Title>
                   <Card.Text>
-                    Based on the popular video game, Super Smash Bros. Ultimate, this memory game has the users clicking chracters they have not already picked during the game. First repeat character chosen is GAME OVER
+                    Based on the popular video game, Super Smash Bros. Ultimate, this memory game has the users clicking characters they have not already picked during the game. First repeat character chosen is GAME OVER
                   </Card.Text>
                   <Button variant="success" block><a href="https://jgreg728.github.io/Click-Game-2/">Enter App</a></Button>
                   <Button variant="primary" block><a href="https://github.com/jgreg728/Click-Game-2">GitHub Repo</a></Button>
